@@ -1,14 +1,18 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #222;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('imagenes/encabezado.jpeg');
+  background-size: 100% 76%;
+  background-position: center 5px; 
+  background-repeat: no-repeat;
+}
   
   .container {
     text-align: center;
@@ -59,11 +63,24 @@ body {
   }
   
   .title {
-    font-size: 50px;
-    margin-bottom: 20px;
-    font-style: italic;
+    font-size: 80px;
+    margin-bottom: 86px;
+    margin-top: 43px;
+    font-family: "Alex Brush", Sans-serif;
   }
   
+  .name1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: "Alex Brush", Sans-serif;
+  }
+
+  .name2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: "Alex Brush", Sans-serif;
+  }
+
   .date {
     font-size: 30px;
     margin-bottom: 40px;
