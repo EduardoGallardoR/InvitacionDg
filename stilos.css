@@ -22,16 +22,18 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 70px;
+    margin-bottom: 30px;
   }
   
   .countdown span {
     display: block;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .countdown .label {
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .image {
@@ -40,6 +42,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
+    
   }
   
   .image img {
@@ -63,26 +66,27 @@ body {
   }
   
   .title {
-    font-size: 80px;
-    margin-bottom: 86px;
-    margin-top: 43px;
+    font-size: 90px;
+    margin-bottom: 69px;
+    margin-top: 11px;
     font-family: "Alex Brush", Sans-serif;
   }
   
   .name1 {
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom: -10px;
     font-family: "Alex Brush", Sans-serif;
   }
 
   .name2 {
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: "Alex Brush", Sans-serif;
   }
 
   .date {
     font-size: 30px;
     margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
   }
   
