@@ -143,9 +143,14 @@ body::before {
   margin-bottom: 2px;
   margin-top: 32vh; 
   font-family: "Alex Brush", Sans-serif;
+  color: black;
+  font-size: 43px;
 }
 
 .overlay-content p {
   margin-bottom: 80px;
   margin-top: 10px;
+  color: rgb(86, 85, 85);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
 }
