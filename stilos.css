@@ -111,10 +111,12 @@ body::before {
   object-fit: cover;
 }
 .new-content-container {
-  position: relative;
-  width: 100%;
-  height: auto; /* Ajusta según el contenido */
-  text-align: center;
+  position: relative; /* stays the same */
+  width: 100%; /* stays the same */
+  height: auto; /* stays the same */
+  text-align: center; /* stays the same */
+  max-width: 100vw; /* added */
+  margin: 0 auto; /* added */
 }
 
 .new-image {
