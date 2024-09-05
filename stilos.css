@@ -182,9 +182,14 @@ body::before {
 }
 
 .add-to-calendar-icon {
-  margin-right: 8px; /* Espacio entre el icono y el texto */
+  margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 
 .add-to-calendar-icon i {
-  color: #000; /* Color negro para el icono */
+  color: #000; 
 }
+
+.add-to-calendar-button:hover .add-to-calendar-icon i {
+  color: #ffffff; 
+}
+
