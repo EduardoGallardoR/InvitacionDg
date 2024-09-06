@@ -121,7 +121,7 @@ body::before {
 
 .new-image {
   width: 100%;
-  max-height: 72vh; /* use relative unit vh instead of fixed max-height */
+  max-height: 512px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -222,11 +222,20 @@ body::before {
   .overlay-content h2 {
     margin-top: 670px; 
     font-size: 53px;
+    width: 620px; 
   }
 
   .overlay-content p {
     margin-top: 10px;
     font-size: 19px;
+  }
+
+  .new-image {
+    max-height: 482px;
+  }
+
+  .add-to-calendar-button {
+    font-size: 14px; /* Tamaño de fuente */
   }
 
 }
@@ -268,7 +277,23 @@ body::before {
 
     font-size: 18px;
   }
+  .overlay-content h2 {
+    margin-top: 650px;
+    width: 620px; 
+  }
 
+  .overlay-content p {
+    margin-top: 10px;
+  
+  }
+
+  .new-image {
+    max-height: 460px;
+  }
+
+  .add-to-calendar-button {
+    font-size: 13px; 
+  }
 
 }
 
@@ -306,11 +331,11 @@ body::before {
   }
   .overlay-content h2 {
     margin-top: 610px; 
-    font-size: 40px;
+    font-size: 42px;
   }
 
   .overlay-content p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
 }
