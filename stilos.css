@@ -95,7 +95,7 @@ body::before {
 
 .image {
   position: absolute;
-  top: 15vh;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
@@ -302,7 +302,7 @@ body::before {
   }
 
   .image {
-    top: 14vh;
+    top: 90px;
   }
 
 }
@@ -321,7 +321,7 @@ body::before {
   }
 
   .image {
-    top: 12vh;
+    top: 80px;
   }
 
 }
@@ -357,7 +357,7 @@ body::before {
   .image {
     width: 210px;
     height: 210px;
-    top: 10vh;
+    top: 70px;
   }
 
 }
@@ -408,7 +408,7 @@ body::before {
     margin-top: -1px;
   }
   .image {
-    top: 6.5vh;
+    top: 35px;
     width: 160px;
     height: 160px;
   }
@@ -445,7 +445,7 @@ body::before {
   }
 
   .image {
-    top: 6.5vh;
+    top: 40px;
     width: 160px;
     height: 160px;
     margin-left: 6%;
