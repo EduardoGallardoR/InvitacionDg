@@ -43,7 +43,7 @@ body::before {
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 4; /* Asegura que esté encima del contenedor, capa negra y otros elementos */
+  z-index: 4; 
 }
 
 .music i {
@@ -182,7 +182,7 @@ body::before {
 }
 
 .add-to-calendar-icon {
-  margin-right: 10px; /* Espacio entre el icono y el texto */
+  margin-right: 10px; 
 }
 
 .add-to-calendar-icon i {
@@ -191,5 +191,144 @@ body::before {
 
 .add-to-calendar-button:hover .add-to-calendar-icon i {
   color: #ffffff; 
+}
+
+/*----------------MEDIA QUERRYS------------------------------- */
+
+@media screen and  (max-width:1246px) {
+  .title {
+    font-size: 80px;
+    margin-top: -7px;
+  }
+  .countdown {  
+    font-size: 48px;
+    margin-top: 54px;
+  }
+  .name1, .name2 {
+    font-size: 40px;
+    
+  }
+  .date {
+    font-size: 25px;
+
+  }
+  .new-image {
+    margin-top: 16px;
+  }
+
+}
+
+@media screen and  (max-width:1080px) {
+  .title {
+    font-size: 75px;
+    margin-top: -7px;
+  }
+  .countdown {  
+    font-size: 43px;
+    margin-top: 79px;
+  }
+  .countdown .label {
+    font-size: 14px;
+  
+  }
+  .name1, .name2 {
+    font-size: 38px;
+    
+  }
+  .date {
+    font-size: 22px;
+
+  }
+  .new-image {
+    margin-top: 28px;
+  }
+
+  .image {
+    width: 275px;
+    height: 275px;
+  }
+
+}
+
+@media screen and  (max-width:900px) {
+  .title {
+    font-size: 70px;
+    margin-top: -7px;
+  }
+  .countdown {  
+    font-size: 38px;
+    margin-top: 92px;
+  }
+  .countdown .label {
+    font-size: 14px;
+  
+  }
+  .name1, .name2 {
+    font-size: 32px;
+    
+  }
+  .date {
+    font-size: 22px;
+
+  }
+  .new-image {
+    margin-top: 41px;
+  }
+
+  .image {
+    width: 260px;
+    height: 260px;
+  }
+
+}
+
+@media screen and  (max-width:750px) {
+  .title {
+    font-size: 66px;
+    margin-top: -7px;
+  }
+  .countdown {  
+    font-size: 48px;
+    margin-top: 106px;
+  }
+  .new-image {
+    margin-top: 21px;
+  }
+
+  .image {
+    top: 14vh;
+  }
+
+}
+
+@media screen and  (max-width:590px) {
+
+  .title {
+    font-size: 69px;
+    margin-top: 44px;
+  }
+  .countdown {  
+    margin-top: 59px;
+  }
+  .new-image {
+    margin-top: 3px;
+  }
+
+}
+
+@media screen and  (max-width:523px) {
+
+  .title {
+    font-size: 79px;
+    margin-top: 37px;
+  }
+  .countdown {  
+    margin-top: -39px;
+    font-size: 38px;
+  }
+  .new-image {
+    margin-top: -49px;
+  }
+
 }
 
