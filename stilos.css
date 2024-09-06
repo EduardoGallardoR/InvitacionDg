@@ -258,6 +258,9 @@ body::before {
     font-size: 70px;
     margin-top: -7px;
   }
+  body::before {
+    height: 494px;
+  }
   .countdown {  
     font-size: 38px;
     margin-top: 92px;
