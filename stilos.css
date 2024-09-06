@@ -329,6 +329,38 @@ body::before {
   .new-image {
     margin-top: -49px;
   }
+  .new-image {
+    margin-top: -50px;
+  }
 
 }
+
+@media screen and  (max-width:316px) {
+
+  .title {
+    font-size: 70px;
+    margin-top: 29px;
+  }
+  .countdown {  
+    margin-top: -39px;
+    font-size: 30px;
+  }
+  .countdown .label {
+    font-size: 10px;
+  
+  }
+  .name1, .name2 {
+    font-size: 29px;
+    
+  }
+  .date {
+    font-size: 20px;
+
+  }
+
+
+
+
+}
+
 
