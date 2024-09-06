@@ -158,7 +158,7 @@ body::before {
   margin-top: 10px;
   color: rgb(86, 85, 85);
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .add-to-calendar-button {
@@ -208,22 +208,25 @@ body::before {
     margin-top: 54px;
   }
   .name1, .name2 {
-    font-size: 40px;
-    
+    font-size: 40px; 
   }
+
   .date {
     font-size: 25px;
-
   }
+
   .new-image {
     margin-top: 16px;
   }
+
   .overlay-content h2 {
-    margin-bottom: 2px;
-    margin-top: 690px; 
-    font-family: "Alex Brush", Sans-serif;
-    color: black;
+    margin-top: 670px; 
     font-size: 53px;
+  }
+
+  .overlay-content p {
+    margin-top: 10px;
+    font-size: 19px;
   }
 
 }
@@ -257,6 +260,15 @@ body::before {
     width: 275px;
     height: 275px;
   }
+  .overlay-content h2 {
+    font-size: 46px;
+  }
+
+  .overlay-content p {
+
+    font-size: 18px;
+  }
+
 
 }
 
@@ -291,6 +303,14 @@ body::before {
   .image {
     width: 260px;
     height: 260px;
+  }
+  .overlay-content h2 {
+    margin-top: 610px; 
+    font-size: 40px;
+  }
+
+  .overlay-content p {
+    font-size: 16px;
   }
 
 }
