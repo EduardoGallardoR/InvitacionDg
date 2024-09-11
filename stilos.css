@@ -274,22 +274,17 @@ body::before {
     height: 275px;
   }
   .overlay-content h2 {
+    margin-top: 650px;
+    width: 620px; 
     font-size: 46px;
   }
 
   .overlay-content p {
 
     font-size: 18px;
-  }
-  .overlay-content h2 {
-    margin-top: 650px;
-    width: 620px; 
+    margin-top: 10px;
   }
 
-  .overlay-content p {
-    margin-top: 10px;
-  
-  }
 
   .new-image {
     max-height: 460px;
@@ -359,7 +354,12 @@ body::before {
     height: 417px;
   }
   .overlay-content h2 {
+    width: 500px; 
     margin-top: 570px; 
+  }
+  .overlay-content p {
+    
+    font-size: 16px;
   }
   .image {
     top: 90px;
@@ -378,6 +378,8 @@ body::before {
   }
   .new-image {
     margin-top: 3px;
+    height: 435px;
+    
   }
 
   .image {
@@ -410,6 +412,15 @@ body::before {
     height: 250px;
   }
 
+  .overlay-content h2 {
+    width: 400px; 
+    font-size: 37px;
+    margin-top: 570px;
+  }
+  .overlay-content p {
+    font-size: 16px;
+  }
+
 }
 
 @media screen and  (max-width:400px) {
@@ -418,6 +429,51 @@ body::before {
     width: 210px;
     height: 210px;
     top: 70px;
+  }
+  .overlay-content h2 {
+    width: 350px; 
+    font-size: 35px;
+    margin-top: 540px;
+  }
+  .overlay-content p {
+    font-size: 13px;
+    width: 350px;
+  }
+  .image {
+    width: 250px;
+    height: 250px;
+    top: 85px;
+  }
+
+  .new-image {
+    margin-top: 21px;
+    height: 390px;
+  }
+
+}
+
+
+@media screen and  (max-width:361px) {
+
+
+  .overlay-content h2 {
+    width: 280px; 
+    font-size: 45px;
+    margin-top: 610px;
+    margin-left: 5px;
+  }
+  .overlay-content p {
+    font-size: 14px;
+    width: 290px;
+    margin-left: 5px;
+  }
+  .new-image {
+    height: 475px;
+  }
+
+  .image {
+    width: 225px;
+    height: 225px;
   }
 
 }
@@ -455,8 +511,22 @@ body::before {
     width: 200px;
     height: 200px;
   }
+  .overlay-content h2 {
+    width: 280px; 
+    font-size: 40px;
+    margin-top: 580px;
+    margin-left: 5px;
+  }
+  .overlay-content p {
+    font-size: 12px;
+    width: 270px;
+    margin-left: 6px;
+  }
 
+  .add-to-calendar-button {
+    font-size: 10px; 
 
+  }
 }
 
 
@@ -471,6 +541,18 @@ body::before {
     top: 35px;
     width: 160px;
     height: 160px;
+  }
+  .overlay-content h2 {
+    width: 250px; 
+    font-size: 35px;
+    margin-top: 460px;
+    margin-left: 5px;
+
+  }
+  .overlay-content p {
+    font-size: 14px;
+    width: 230px;
+    margin-left: 13px;
   }
 
 
@@ -509,6 +591,29 @@ body::before {
     width: 160px;
     height: 160px;
     margin-left: 6%;
+  }
+  .overlay-content h2 {
+    width: 250px; 
+    font-size: 36px;
+    margin-top: 460px;
+    margin-left: 25px;
+
+  }
+
+  .overlay-content p {
+    font-size: 14px;
+    width: 230px;
+    margin-left: 40px;
+    margin-bottom: 18px;
+  }
+  .new-image {
+    margin-top: 3px;
+    height: 418px; 
+  }
+  .add-to-calendar-button {
+    font-size: 11px; 
+    margin-left: 35px;
+
   }
 
 
