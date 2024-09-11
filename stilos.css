@@ -202,10 +202,10 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
   justify-content: center;
   align-items: center;
   height: 700px;
-  z-index: 1; 
   position: relative;
   background-attachment: fixed;
 }
@@ -218,7 +218,21 @@ body::before {
   height: 700px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0; /* Mantén esto por debajo del contenido de .container3 */
+}
 
+.text-content {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px; /* Espacio entre el texto y las cartas */
+  z-index: 1; /* Asegura que el texto esté encima del fondo oscuro */
+}
+
+.card-container {
+  display: flex;
+  gap: 20px; /* Espacio entre las cartas */
+  justify-content: center; /* Alinea las cartas horizontalmente en el centro */
+  flex-wrap: wrap; 
+  z-index: 1; 
 }
 
 .card {
@@ -229,7 +243,13 @@ body::before {
   margin: 10px;
   width: 410px;
   height: 340px;
-  z-index: 2
+  z-index: 2;
+}
+
+.title2 {
+  font-family: "Alex Brush", Sans-serif;
+  font-size: 71px;
+  margin-bottom: 10px; 
 }
 
 h1 {
