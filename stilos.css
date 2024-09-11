@@ -238,11 +238,11 @@ body::before {
 .card {
   background-color: #f2f2f2c0;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 19px;
   text-align: center;
   margin: 10px;
   width: 410px;
-  height: 340px;
+  height: 328px;
   z-index: 2;
 }
 
@@ -257,6 +257,7 @@ body::before {
   font-size: 30px;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2px;
 }
 
 h1 {
