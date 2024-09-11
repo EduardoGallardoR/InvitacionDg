@@ -207,6 +207,7 @@ body::before {
   height: 700px;
   z-index: 1; 
   position: relative;
+  background-attachment: fixed;
 }
 
 .container3::before {
@@ -217,6 +218,7 @@ body::before {
   height: 700px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0; /* Mantén esto por debajo del contenido de .container3 */
+
 }
 
 .card {
