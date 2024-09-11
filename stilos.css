@@ -193,6 +193,49 @@ body::before {
   color: #ffffff; 
 }
 
+
+.container3{
+  background-image: url('imagenes/fondo3.jpg');
+  background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 250px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555555;
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.note {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 /*----------------MEDIA QUERRYS------------------------------- */
 
 @media screen and  (max-width:1246px) {
