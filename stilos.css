@@ -197,7 +197,7 @@ body::before {
 
 
 .container3 {
-  background-image: url('imagenes/fondo3.jpg');
+  background-image: url('imagenes/fondoo3.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,10 +222,11 @@ body::before {
 .card {
   background-color: #f2f2f2c0;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
   margin: 10px;
-  width: 250px;
+  width: 410px;
+  height: 340px;
   z-index: 2
 }
 
