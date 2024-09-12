@@ -416,6 +416,77 @@ body::before {
     font-size: 13px; 
   }
 
+  .container3 {
+    height: 1068px;
+  }
+
+  .container3::before {
+    height: 1068px;
+  }
+
+  .title2 {
+    font-size: 56px;
+
+  }
+
+  .text-content p{
+    font-size: 24px;
+  }
+  
+  .card {
+    width: 398px;
+    height: 302px;
+  }   
+
+  .icon {
+    width: 75px; 
+  }
+
+  .title3{
+    font-size: 30px;
+  }
+  
+  .style {
+    font-size: 14px;
+  }
+  .note {
+    font-size: 13px;
+  }
+
+}
+
+@media screen and  (max-width:936px) {
+
+  .container3 {
+    height: 895px;
+  }
+
+  .container3::before {
+    height: 895px;
+  }
+
+  .card {
+    width: 338px;
+    height: 242px;
+  }   
+
+  .icon {
+    width: 67px; 
+  }
+
+  .title3{
+    font-size: 28px;
+  }
+  
+  .style {
+    font-size: 15px;
+  }
+  .note {
+    margin-left: -20px;
+    font-size: 10px;
+  }
+  
+
 }
 
 @media screen and  (max-width:900px) {
@@ -462,6 +533,39 @@ body::before {
 
 }
 
+@media screen and  (max-width:816px) {
+
+.container3 {
+  height: 889px;
+}
+
+.container3::before {
+  height: 889px;
+}
+  
+.card {
+  width: 318px;
+  height: 222px;
+}   
+
+.icon {
+  width: 59px; 
+}
+
+.title3{
+  font-size: 26px;
+}
+
+.style {
+  font-size: 14px;
+}
+.note {
+  width: 323px;
+  margin-left: -5px;
+  font-size: 11px;
+}
+}
+
 @media screen and  (max-width:780px) {
   .title {
     font-size: 66px;
@@ -487,6 +591,59 @@ body::before {
     top: 90px;
   }
 
+  .container3 {
+    height: 859px;
+  }
+  
+  .container3::before {
+    height: 859px;
+  }
+  
+  .card {
+    width: 298px;
+    height: 202px;
+  }   
+  
+  .icon {
+    width: 53px; 
+  }
+  .style {
+    font-size: 13px;
+  }
+  .note {
+    width: 295px;
+    margin-left: -2px;
+    font-size: 10px;
+  }
+
+}
+
+
+@media screen and  (max-width:740px) {
+.container3 {
+  height: 1145px;
+}
+
+.container3::before {
+  height: 1145px;
+}
+.title2 {
+  font-size: 53px;
+}
+
+.text-content p{
+  font-size: 22px;
+}
+.card {
+  width: 368px;
+}   
+
+.note {
+  margin-left: 35px;
+  font-size: 11px;
+}
+
+
 }
 
 @media screen and  (max-width:590px) {
@@ -500,10 +657,8 @@ body::before {
   }
   .new-image {
     margin-top: 3px;
-    height: 435px;
-    
+    height: 435px; 
   }
-
   .image {
     top: 80px;
   }
@@ -542,7 +697,24 @@ body::before {
   .overlay-content p {
     font-size: 16px;
   }
+  .title2 {
+    font-size: 51px;
+  } 
+  .text-content p{
+    font-size: 18px;
+  }
 
+}
+
+
+@media screen and  (max-width:455px) {
+
+  .card {
+    width: 298px;
+  }   
+  .note {
+    margin-left: 6px;
+  }
 }
 
 @media screen and  (max-width:400px) {
@@ -596,6 +768,28 @@ body::before {
   .image {
     width: 225px;
     height: 225px;
+  }
+
+  .title2 {
+    font-size: 45px;
+  }
+
+  .text-content p{
+    font-size: 14px;
+  }
+
+  .card {
+    width: 258px;
+  }
+
+  .title3{
+    font-size: 23px;
+    margin-left: -19px;
+  }
+
+  .note {
+   width: 231px;
+    margin-left: 18px;
   }
 
 }
