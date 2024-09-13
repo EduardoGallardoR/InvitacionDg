@@ -832,16 +832,43 @@ body::before {
     font-size: 40px;
     margin-top: 580px;
     margin-left: 5px;
+    
   }
   .overlay-content p {
     font-size: 12px;
     width: 270px;
     margin-left: 6px;
+    
   }
 
   .add-to-calendar-button {
     font-size: 10px; 
+    
+  }
 
+
+  .title2 {
+    font-size: 44px;
+    width: 240px;
+  }
+  .text-content p{
+   width: 230px;
+  }
+  .card {
+    width: 217px;
+  }  
+  .title3{
+    font-size: 20px;
+    margin-left: -35px;
+  }
+  
+  .style {
+    font-size: 12px;
+  }
+  .note {
+    margin-left: 6px;
+    font-size: 10px;
+    width: 210px;
   }
 }
 
