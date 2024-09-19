@@ -760,12 +760,28 @@ body::before {
 
 @media screen and  (max-width:455px) {
 
+  .new-image {
+    height: 735px; 
+  }
+  .overlay-content h2 {
+    margin-top: 590px;
+  }
   .card {
     width: 298px;
   }   
   .note {
     margin-left: 6px;
   }
+
+  .title2 {
+    margin-top: -27px;
+  }
+
+  .text-content p{
+    margin-bottom: 25px;
+  }
+
+
 }
 
 @media screen and  (max-width:400px) {
@@ -799,6 +815,7 @@ body::before {
   margin-bottom: 20px;
 }
 
+}
 
 @media screen and  (max-width:361px) {
 
@@ -819,9 +836,10 @@ body::before {
   }
 
   .image {
-    width: 225px;
-    height: 225px;
+    width: 220px;
+    height: 220px;
   }
+
 
   .title2 {
     font-size: 45px;
@@ -844,6 +862,8 @@ body::before {
    width: 231px;
     margin-left: 18px;
   }
+
+
 
 }
 
