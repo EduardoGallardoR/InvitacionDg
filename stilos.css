@@ -305,7 +305,7 @@ body::before {
   max-width: 1550px;
   position: relative;
   overflow: hidden;
-  background-image: url('imagenes/blanco.jpeg'); /* Fondo del contenedor */
+  background-image: url('imagenes/blanco.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -666,7 +666,6 @@ body::before {
     margin-left: -2px;
     font-size: 10px;
   }
-
 }
 
 
@@ -781,6 +780,10 @@ body::before {
     margin-bottom: 25px;
   }
 
+  .container4 {
+    padding: 10px; 
+  }
+
 
 }
 
@@ -813,6 +816,10 @@ body::before {
 
  .text-content p{
   margin-bottom: 20px;
+}
+
+.container4 {
+  padding: 10px; 
 }
 
 }
