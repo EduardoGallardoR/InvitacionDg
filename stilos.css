@@ -770,11 +770,7 @@ body::before {
 
 @media screen and  (max-width:400px) {
 
-  .image {
-    width: 210px;
-    height: 210px;
-    top: 70px;
-  }
+
   .overlay-content h2 {
     width: 350px; 
     font-size: 35px;
@@ -785,8 +781,8 @@ body::before {
     width: 350px;
   }
   .image {
-    width: 250px;
-    height: 250px;
+    width: 245px;
+    height: 245px;
     top: 85px;
   }
 
@@ -795,6 +791,12 @@ body::before {
     height: 420px;
   }
 
+  .title2 {
+   margin-top: -25px;
+ }
+
+ .text-content p{
+  margin-bottom: 10px;
 }
 
 
