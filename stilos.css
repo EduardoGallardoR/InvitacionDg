@@ -365,19 +365,17 @@ body::before {
 
 .title4 {
   font-family: "Alex Brush", sans-serif;
-  font-size: 41px;
+  font-size: 71px;
   text-align: center;
-  margin-bottom: 10px;
-  background-color: #e9c94a;
-  padding: 10px 20px;
-  border-radius: 8px;
+  margin-bottom: -24px;
+  margin-top: 73px;
 }
 
 .contenedor5 p {
   text-align: center;
-  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
   color: #fff;
-  background-color: #384e61;
   padding: 10px 20px;
   border-radius: 8px;
   margin-bottom: 30px;
