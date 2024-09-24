@@ -361,6 +361,7 @@ body::before {
   background-position: center;
   padding: 0 20px;
   position: relative;
+  
 }
 
 .title4 {
@@ -381,11 +382,24 @@ body::before {
   margin-bottom: 30px;
 }
 
+#evento1 {
+  text-align: left; /* Alinear texto a la izquierda */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 8px;
+
+}
+
+
+
 .timeline {
   position: relative;
   width: 80%;
-  max-width: 800px;
+  max-width: 800px;    
+
 }
+
 
 .timeline-item {
   position: relative;
@@ -434,9 +448,10 @@ body::before {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 40%;
+  height: 75px;
   position: relative;
   z-index: 2;
-  top: -32px;
+  top: -40px;
 }
 
 .timeline-content h2 {
@@ -473,14 +488,14 @@ body::before {
 .timeline-content.left::before {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
-  top: 35px;
+  top: 44px;
   right: -9px;
 }
 
 .timeline-content.right::before {
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
-  top: 35px;
+  top: 44px;
   left: -9px;
 }
 
