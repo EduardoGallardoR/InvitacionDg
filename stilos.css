@@ -452,7 +452,9 @@ body::before {
 .timeline-content .date {
   font-size: 0.85rem;
   color: #7f8c8d;
-  margin-top: 5px;
+  width: 93px;
+  margin-top: -7px;
+  margin-left: 59px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -494,11 +496,11 @@ body::before {
 
 .timeline-content.right {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 450px;
 }
 
 .timeline-content.right .date {
-  right: calc(100% + 15px);
+  right: calc(100% + 79px);
 }
 
 /*----------------MEDIA QUERRYS------------------------------- */
