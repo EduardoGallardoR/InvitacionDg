@@ -487,14 +487,14 @@ body::before {
 
 .timeline-content.left::before {
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent rgb(255, 255, 255);
   top: 44px;
   right: -9px;
 }
 
 .timeline-content.right::before {
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
   top: 44px;
   left: -9px;
 }
