@@ -407,6 +407,7 @@ body::before {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  
 }
 
 .icon2 img {
@@ -419,7 +420,7 @@ body::before {
   position: absolute;
   width: 3px;
   background-color: #384e61;
-  top: 0;
+  top: 60px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -433,6 +434,7 @@ body::before {
   width: 40%;
   position: relative;
   z-index: 2;
+  top: -32px;
 }
 
 .timeline-content h2 {
