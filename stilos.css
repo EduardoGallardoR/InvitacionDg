@@ -409,7 +409,8 @@ body::before {
 .timeline {
   position: relative;
   width: 80%;
-  max-width: 800px;    
+  max-width: 800px;
+      
 
 }
 
@@ -478,10 +479,9 @@ body::before {
 }
 
 .timeline-content .date {
-  font-size: 0.85rem;
-  color: #7f8c8d;
+  font-size: 1.1rem;
+  color: #ffffff;
   width: 93px;
-  margin-top: -7px;
   margin-left: 59px;
   position: absolute;
   top: 50%;
@@ -587,6 +587,18 @@ body::before {
 
   }
 
+  .contenedor5 {
+ 
+    height: 100vh;
+
+    
+  }
+
+  .contenedor5::before {
+
+    height: 657px;
+
+  }
   
 
 
@@ -681,6 +693,19 @@ body::before {
   }
   .note {
     font-size: 13px;
+  }
+
+  .title4 {
+    font-size: 56px;
+  }
+
+  .contenedor5 p {
+    font-size: 24px;
+  }
+
+  .timeline-content.right {
+    text-align: left;
+    margin-left: 440px;
   }
 
 }
