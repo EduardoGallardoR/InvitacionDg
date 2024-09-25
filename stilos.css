@@ -703,9 +703,7 @@ body::before {
     font-size: 24px;
   }
 
-  .timeline {
-    width: 100%;
-  }
+
 
 }
 
@@ -795,16 +793,16 @@ body::before {
 
 @media screen and  (max-width:836px) {
   .timeline {
-    width: 110%;
+    width: 800px;
   }
   .timeline-content {
-    width: 29%;
+    width: 230px;
     height: 75px;
 
   }
   .timeline-content.left {
     text-align: right;
-    margin-left: 90px;
+    margin-left: 93px;
   }
   .timeline-content.right {
     margin-left: 450px;
@@ -847,20 +845,23 @@ body::before {
 
 .timeline {
   width: 500px;
+  margin-left: 17px;
   
 }
 
 .timeline-content {
-  width: 39%;
+  width: 180px;
 
 }
+
 .timeline-content.left {
   text-align: right;
-  margin-left: -9px;
+  margin-left: -7px;
 }
 .timeline-content.right {
   margin-left: 300px;
 }
+
 }
 
 @media screen and  (max-width:780px) {
