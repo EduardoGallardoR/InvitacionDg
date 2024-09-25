@@ -897,6 +897,13 @@ body::before {
   font-size: 11px;
 }
 
+.title4 {
+  font-size: 53px;
+}
+.contenedor5 p {
+  font-size: 22px;
+}
+
 
 }
 
@@ -958,6 +965,13 @@ body::before {
     font-size: 18px;
   }
 
+  .title4 {
+    font-size: 51px;
+  }
+  .contenedor5 p {
+    font-size: 18px;
+  }
+
 }
 
 
@@ -987,6 +1001,8 @@ body::before {
   .container4 {
     padding: 10px; 
   }
+
+
 
 
 }
@@ -1074,6 +1090,13 @@ body::before {
     margin-left: 18px;
   }
 
+  .title4 {
+    font-size: 45px;
+  }
+
+  .contenedor5 p {
+    font-size: 14px;
+  }
 
 
 }
