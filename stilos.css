@@ -410,6 +410,7 @@ body::before {
   position: relative;
   width: 80%;
   max-width: 800px;
+  background-color: #ff0000;
 
 }
 
@@ -740,6 +741,10 @@ body::before {
     margin-left: -20px;
     font-size: 10px;
   }
+
+  .timeline {
+    width: 100%;
+  }
   
 
 }
@@ -788,6 +793,26 @@ body::before {
 
 }
 
+@media screen and  (max-width:836px) {
+  .timeline {
+    width: 110%;
+  }
+  .timeline-content {
+    width: 29%;
+    height: 75px;
+
+  }
+  .timeline-content.left {
+    text-align: right;
+    margin-left: 90px;
+  }
+  .timeline-content.right {
+    margin-left: 450px;
+  }
+
+}
+
+
 @media screen and  (max-width:816px) {
 
 .container3 {
@@ -818,6 +843,23 @@ body::before {
   width: 323px;
   margin-left: -5px;
   font-size: 11px;
+}
+
+.timeline {
+  width: 500px;
+  
+}
+
+.timeline-content {
+  width: 39%;
+
+}
+.timeline-content.left {
+  text-align: right;
+  margin-left: -9px;
+}
+.timeline-content.right {
+  margin-left: 300px;
 }
 }
 
@@ -1041,6 +1083,8 @@ body::before {
 .container4 {
   padding: 10px; 
 }
+
+
 
 }
 
