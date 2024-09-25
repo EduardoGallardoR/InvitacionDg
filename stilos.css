@@ -410,8 +410,6 @@ body::before {
   position: relative;
   width: 800px;
   max-width: 800px;
-  background-color: #ff0000;
-
 }
 
 
@@ -1134,21 +1132,21 @@ body::before {
 
 .timeline {
   width: 300px;
-  margin-left: 9px;
+  margin-left: 6px;
 }
 .timeline-content {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
 }
 .timeline-content.right {
   margin-left: 190px;
 }
 .timeline-content.left::before {
-  top: 48px;
+  top: 44px;
 }
 
 .timeline-content.right::before {
-  top: 48px;  
+  top: 44px;  
 }
 }
 
