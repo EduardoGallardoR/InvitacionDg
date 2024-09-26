@@ -468,7 +468,7 @@ body::before {
   background-color: #e9c94a;
   top: 43.5px;
   left: 49.9%;
-  transition: height 0.9s ease;
+  transition: height 0.1s linear;
   z-index: 2;
 }
 
