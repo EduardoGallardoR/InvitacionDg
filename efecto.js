@@ -20,7 +20,7 @@ window.addEventListener('scroll', function() {
         const scrollPercentage = distanceScrolled / totalScrollableDistance;
 
         // Limitar el porcentaje entre 0 y 1 para evitar desbordamiento
-        const progress = Math.min(Math.max(scrollPercentage, 0), 1);
+        const progress = Math.min(Math.max(scrollPercentage, 0), 1.1);
 
         // Ajustar la altura de la barra de progreso según el porcentaje de scroll
         const maxTimelineHeight = 300; // Altura máxima de la línea de tiempo
