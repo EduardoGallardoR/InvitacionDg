@@ -1114,9 +1114,17 @@ body::before {
   }
 
   #evento2 {
-  width: 78px;
-  margin-left: -12px;
-  margin-top: 10px;
+    width: 78px;
+    margin-left: -12px;
+    margin-top: 10px;
+  }
+
+  .contenedor5 {
+    height: 840px;
+  }
+
+  .contenedor5::before {
+    height: 840px;
   }
 
 
@@ -1147,55 +1155,75 @@ body::before {
 
   .title2 {
    margin-top: -25px;
- }
+  }
 
  .text-content p{
   margin-bottom: 20px;
-}
+  width: 351px;
+  }
 
-.container4 {
-  padding: 10px; 
-}
+  .container4 {
+    padding: 10px; 
+  }
+  .contenedor5 {
+    height: 800px;
+  }
 
-.timeline {
-  width: 300px;
-  margin-left: 6px;
-}
-.timeline-content {
-  width: 75px;
-  height: 75px;
-}
+  .contenedor5::before {
+    height: 800px;
+  }
+  .timeline {
+    width: 300px;
+    margin-left: 6px;
+  }
+  .timeline-content {
+    width: 75px;
+    height: 75px;
+  }
+  .timeline-content.right {
+    margin-left: 190px;
+  }
+  .timeline-content.left::before {
+    top: 44px;
+  }
 
+  .timeline-content.right::before {
+    top: 44px;  
+  }
+  .timeline::after {
+    height: 300px;
+  }
+  #evento1 {
+    font-size: 11px;
+    width: 88px;
+    margin-left: -25px;
+    margin-top: 13px;
+  }
 
-.timeline-content.right {
-  margin-left: 190px;
-}
-.timeline-content.left::before {
-  top: 44px;
-}
-
-.timeline-content.right::before {
-  top: 44px;  
-}
-.timeline::after {
-  height: 300px;
-}
-#evento1 {
+  #evento2 {
   font-size: 11px;
-  width: 88px;
-  margin-left: -25px;
-  margin-top: 13px;
-}
+  width: 90px;
+  margin-left: -27px;
+  margin-top: 9px;
+  }
+  .timeline-content .date {
+    width: 89px;
+  }
+  .title4 {
+    line-height: 0.7;
+    width: 360px;
+   
+  }
 
-#evento2 {
-font-size: 11px;
-width: 90px;
-margin-left: -27px;
-margin-top: 9px;
-}
-.timeline-content .date {
-  width: 89px;
-}
+  .contenedor5 p {
+    margin-top: 40px;
+    width: 293px;
+  }
+
+  .timeline {
+  margin-top: 20px;
+  }
+  
 }
 
 
@@ -1225,10 +1253,12 @@ margin-top: 9px;
 
   .title2 {
     font-size: 45px;
+    width: 320px;
   }
 
   .text-content p{
     font-size: 14px;
+    width: 320px;
   }
 
   .card {
@@ -1247,13 +1277,25 @@ margin-top: 9px;
 
   .title4 {
     font-size: 45px;
+    line-height: 0.7;
+    width: 300px;
+  }
+  .contenedor5 {
+    height: 745px;
   }
 
+  .contenedor5::before {
+    height: 745px;
+  }
   .contenedor5 p {
+    margin-top: 40px;
     font-size: 14px;
+    width: 253px;
   }
 
-
+  .timeline {
+  margin-top: 13px;
+  }
 
 }
 
