@@ -23,7 +23,7 @@ window.addEventListener('scroll', function() {
         const progress = Math.min(Math.max(scrollPercentage, 0), 1.1);
 
         // Ajustar la altura de la barra de progreso según el porcentaje de scroll
-        const maxTimelineHeight = 300; // Altura máxima de la línea de tiempo
+        const maxTimelineHeight = 310; // Altura máxima de la línea de tiempo
         progressBar.style.height = (progress * maxTimelineHeight) + 'px';
         
         // Si se está desplazando hacia abajo y la barra no está llena, llenarla
