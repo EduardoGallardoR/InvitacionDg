@@ -523,7 +523,7 @@ body::before {
 }
 
 .timeline-content.left .date {
-  left: calc(100% + 15px);
+  left: calc(100% + 26px);
 }
 
 .timeline-content.right {
@@ -1107,7 +1107,17 @@ body::before {
     top: 55px;  
   }
 
+  #evento1 {
+    width: 88px;
+    margin-left: -12px;
+    margin-top: 22px;
+  }
 
+  #evento2 {
+  width: 78px;
+  margin-left: -12px;
+  margin-top: 10px;
+  }
 
 
 }
@@ -1155,6 +1165,8 @@ body::before {
   width: 75px;
   height: 75px;
 }
+
+
 .timeline-content.right {
   margin-left: 190px;
 }
@@ -1164,6 +1176,25 @@ body::before {
 
 .timeline-content.right::before {
   top: 44px;  
+}
+.timeline::after {
+  height: 300px;
+}
+#evento1 {
+  font-size: 11px;
+  width: 88px;
+  margin-left: -25px;
+  margin-top: 13px;
+}
+
+#evento2 {
+font-size: 11px;
+width: 90px;
+margin-left: -27px;
+margin-top: 9px;
+}
+.timeline-content .date {
+  width: 89px;
 }
 }
 
@@ -1221,6 +1252,7 @@ body::before {
   .contenedor5 p {
     font-size: 14px;
   }
+
 
 
 }
