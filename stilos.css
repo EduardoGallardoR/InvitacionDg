@@ -1080,7 +1080,7 @@ body::before {
   }
   .timeline {
     width: 359px;
-    margin-left: 10px;
+    margin-left: 4px;
   }
   .timeline::after {
     height: 357px;
