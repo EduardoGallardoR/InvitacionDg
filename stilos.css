@@ -401,9 +401,15 @@ body::before {
   font-size: 15px;
   color: #000000;
   border-radius: 8px;
-
 }
 
+#evento2 {
+  text-align: left; /* Alinear texto a la izquierda */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 8px;
+}
 
 
 .timeline {
@@ -962,6 +968,14 @@ body::before {
     top: 80px;
   }
 
+  #evento1 {
+    font-size: 13px;
+  }
+  #evento2 {
+    margin-top: 2px;
+    font-size: 13px;
+  }
+
   .timeline {
     width: 408px;
     margin-left: 17px;
@@ -978,7 +992,6 @@ body::before {
   .timeline-content.right {
     margin-left: 240px;
   }
-
 }
 
 @media screen and  (max-width:523px) {
