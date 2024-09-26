@@ -464,11 +464,11 @@ body::before {
 .timeline-fill {
   position: absolute;
   width: 3px;
-  height: 50px; /* Comienza vacío */
-  background-color: #e9c94a; /* Color del relleno */
+  height: 0px; /* Comienza completamente vacío */
+  background-color: #e9c94a;
   top: 70px;
   left: 49.9%;
-  transition: height 0.9s ease; 
+  transition: height 0.9s ease;
   z-index: 2;
 }
 
