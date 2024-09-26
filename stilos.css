@@ -1058,6 +1058,13 @@ body::before {
     padding: 10px; 
   }
 
+  .contenedor5 {
+    height: 800px;
+  }
+
+  .contenedor5::before {
+    height: 800px;
+  }
   .timeline {
     width: 359px;
     margin-left: 10px;
