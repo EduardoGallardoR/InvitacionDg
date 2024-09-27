@@ -154,6 +154,7 @@ body::before {
   font-family: "Alex Brush", Sans-serif;
   color: black;
   font-size: 59px;
+  font-weight: 300; 
 }
 
 .overlay-content p {
@@ -378,6 +379,7 @@ body::before {
 .title4 {
   font-family: "Alex Brush", sans-serif;
   font-size: 71px;
+  font-weight: 300; 
   text-align: center;
   margin-bottom: -24px;
   margin-top: 73px;
@@ -546,6 +548,28 @@ body::before {
 
 .timeline-content.right .date {
   right: calc(100% + 79px);
+}
+
+.container6 {
+  width: 100%;
+  height: 473px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('imagenes/blanco.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+.title6 {
+  font-family: "Alex Brush", sans-serif;
+  color: #000;
+  font-size: 71px;
+  font-weight: 300; 
+  text-align: center;
+  margin-bottom: -24px;
+  margin-top: 73px;
 }
 
 /*----------------MEDIA QUERRYS------------------------------- */
