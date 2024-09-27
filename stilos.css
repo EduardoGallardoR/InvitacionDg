@@ -1194,6 +1194,12 @@ body::before {
     width: 300px;
     margin-left: 6px;
   }
+  .timeline-fill{
+    top:78px;
+    width: 2.5px;
+    margin-left: -0.6px;
+    max-height: 300px;
+  }
   .timeline-content {
     width: 75px;
     height: 75px;
