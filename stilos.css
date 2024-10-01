@@ -584,6 +584,9 @@ body::before {
   margin-top: 20px;
   transition: background-color 0.3s ease; 
 }
+#btnUbicacion:hover {
+  background-color: #333; /* Cambia el color del fondo a gris oscuro al pasar el cursor */
+}
 
 #imagenUbicacion {
   width: 100%;
@@ -592,10 +595,6 @@ body::before {
   display: block;
   margin: 35px auto 0 auto; /* Esto centrará la imagen horizontalmente */
   border-radius: 17px;
-}
-
-#btnUbicacion:hover {
-  background-color: #333; /* Cambia el color del fondo a gris oscuro al pasar el cursor */
 }
 
 #dato1 {
@@ -792,6 +791,22 @@ body::before {
   }
   .title6 {
     font-size: 56px;
+  }
+
+  #dato1 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato2 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato3 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato4 {
+    font-size: 16px; /* Tamaño de la fuente */
   }
 
 
@@ -1332,6 +1347,26 @@ body::before {
   .timeline {
   margin-top: 20px;
   }
+
+  #btnUbicacion {
+    font-size: 14px;
+  }
+
+  #dato1 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato2 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato3 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+  
+  #dato4 {
+    font-size: 16px; /* Tamaño de la fuente */
+  }
   
 }
 
@@ -1409,6 +1444,7 @@ body::before {
   .title6 {
     font-size: 45px;
   }
+
 
 
 }
