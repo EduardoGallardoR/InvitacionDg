@@ -666,6 +666,16 @@ body::before {
   margin-bottom: 2px;
 }
 
+.container8 {
+  display: inline-block; /* El contenedor se ajusta al tamaño de su contenido (la imagen) */
+}
+
+.container8 img {
+  width: auto; /* Mantiene el tamaño original de la imagen */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  max-width: 100%; /* Opcional: evita que la imagen exceda el ancho del contenedor si es muy grande */
+}
+
 
 
 /*----------------MEDIA QUERRYS------------------------------- */
