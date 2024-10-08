@@ -667,11 +667,11 @@ body::before {
 }
 
 .container8 {
-  display: inline-block; /* El contenedor se ajusta al tamaño de su contenido (la imagen) */
+  display: inline-block; 
 }
 
 .container8 img {
-  width: auto; /* Mantiene el tamaño original de la imagen */
+  width: 1519px; /* Mantiene el tamaño original de la imagen */
   height: auto; /* Mantiene la proporción original de la imagen */
   max-width: 100%; /* Opcional: evita que la imagen exceda el ancho del contenedor si es muy grande */
 }
