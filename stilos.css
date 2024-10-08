@@ -48,27 +48,30 @@ body::before {
 
 .music i {
   font-size: 24px;
+  transition: transform 0.3s ease;
 }
 
-.bars {
-  display: flex;
-  align-items: flex-end;
-  height: 30px;
-  margin-top: 10px;
+/* Estilo cuando la música está sonando */
+.music i.playing {
+  transform: rotate(20deg);
 }
 
-.bar {
-  width: 5px;
-  height: 100%;
-  background-color: #000; /* Color de las barras */
-  margin: 0 2px;
-  animation: pulse 0.2s infinite;
+/* Animación de las líneas musicales */
+.music i.playing::before {
+  content: "♫♫♫";
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  font-size: 16px;
+  color: green;
+  animation: bounce 1s infinite;
 }
 
-@keyframes pulse {
-  0% { height: 10px; }
-  50% { height: 30px; }
-  100% { height: 10px; }
+/* Animación de rebote */
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
 }
 
 
