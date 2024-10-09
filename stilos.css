@@ -771,23 +771,31 @@ body::before {
 }
 .campo9 {
   margin-bottom: 15px;
+  
 }
 
 .campo9 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
+  margin-left: 366px;
+  color: #000;
+  text-align: left; 
+  font-family: 'Montserrat', sans-serif;
 }
 
 .campo9 input {
-  width: 100%;
+  width: 700px;
+  height: 39px;
   padding: 8px;
   border: 1px solid #000000;
   border-radius: 4px;
+  margin-left: 10px;
 }
 
 .boton-confirmar {
+  margin: 20px auto; /* Centrar el botón horizontalmente */
   display: block;
-  width: 100%;
+  width: 40%;
   padding: 10px;
   background-color: #28a745;
   color: white;
@@ -798,7 +806,7 @@ body::before {
 }
 
 .boton-confirmar:hover {
-  background-color: #218838;
+  background-color: #000000;
 }
 
 /*----------------MEDIA QUERRYS------------------------------- */
