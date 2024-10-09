@@ -44,35 +44,36 @@ body::before {
   border-radius: 50%;
   cursor: pointer;
   z-index: 4;
+  user-select: none;
 }
 
 .music i {
   font-size: 24px;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
-/* Estilo cuando la música está sonando */
+/* Estilo cuando la música está sonando (animación del icono actual) */
 .music i.playing {
-  transform: rotate(20deg);
+  color: rgb(255, 255, 255);  /* Cambiamos el color cuando esté reproduciendo */
+  animation: bounce 1s infinite; /* La nota musical se moverá */
 }
 
-/* Animación de las líneas musicales */
-.music i.playing::before {
-  content: "♫♫♫";
-  position: absolute;
-  top: -25px;
-  left: 10px;
-  font-size: 16px;
-  color: green;
-  animation: bounce 1s infinite;
+/* bocina en silencio */
+.music i.muted {
+  color: rgb(255, 255, 255); /* Bocina en color rojo cuando está muteado */
+  animation: none; /* Sin animación cuando está muteado */
 }
 
-/* Animación de rebote */
+/* Animación de rebote para la nota musical */
 @keyframes bounce {
   0% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
+  50% { transform: translateY(-3px); }
   100% { transform: translateY(0); }
 }
+
+
+
 
 
 .title {
@@ -80,17 +81,20 @@ body::before {
   margin-bottom: 69px;
   margin-top: 3px;
   font-family: "Alex Brush", Sans-serif;
+  user-select: none;
 }
 
 .name1, .name2 {
   font-size: 50px;
   font-family: "Alex Brush", Sans-serif;
+  user-select: none;
 }
 
 .date {
   font-size: 30px;
   margin-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
+  user-select: none;
 }
 
 .countdown {
@@ -99,16 +103,19 @@ body::before {
   gap: 20px;
   font-size: 70px;
   margin-bottom: 30px;
+  user-select: none;
 }
 
 .countdown span {
   display: block;
   font-family: 'Montserrat', sans-serif;
+  user-select: none;
 }
 
 .countdown .label {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
+  user-select: none;
 }
 
 .image-container {
@@ -180,6 +187,7 @@ body::before {
   color: black;
   font-size: 59px;
   font-weight: 300; 
+  user-select: none;
 }
 
 .overlay-content p {
@@ -187,6 +195,7 @@ body::before {
   color: rgb(86, 85, 85);
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
+  user-select: none;
 }
 
 .add-to-calendar-button {
@@ -251,6 +260,7 @@ body::before {
   color: white;
   margin-bottom: 20px; /* Espacio entre el texto y las cartas */
   z-index: 1; /* Asegura que el texto esté encima del fondo oscuro */
+  user-select: none;
 }
 
 
@@ -267,6 +277,7 @@ body::before {
   font-size: 71px;
   margin-bottom: -20px; 
   word-spacing: 10px;
+  user-select: none;
 }
 
 .text-content p{
@@ -274,6 +285,7 @@ body::before {
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 2px;
+  user-select: none;
 }
 
 
@@ -306,6 +318,7 @@ body::before {
   text-align: center; 
   margin: 0 auto;  
   line-height: 1.0;
+  user-select: none;
 }
 
 .style {
@@ -314,6 +327,7 @@ body::before {
   margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 570; 
+  user-select: none;
 }
 .note {
   top: 94px;
@@ -323,6 +337,7 @@ body::before {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   margin-left: 18px;
+  user-select: none;
 }
 
 /* Estilo para el contenedor principal con fondo */
@@ -409,6 +424,7 @@ body::before {
   margin-bottom: -24px;
   margin-top: 73px;
    z-index: 1;
+   user-select: none;
 }
 
 .contenedor5 p {
@@ -420,6 +436,7 @@ body::before {
   border-radius: 8px;
   margin-bottom: 30px;
   z-index: 1;
+  user-select: none;
 }
 
 #evento1 {
@@ -428,6 +445,7 @@ body::before {
   font-size: 15px;
   color: #000000;
   border-radius: 8px;
+  user-select: none;
 }
 
 #evento2 {
@@ -436,6 +454,7 @@ body::before {
   font-size: 15px;
   color: #000000;
   border-radius: 8px;
+  user-select: none;
 }
 
 
@@ -530,6 +549,7 @@ body::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  user-select: none;
 }
 
 /* Puntas de los globos */
@@ -595,6 +615,7 @@ body::before {
   text-align: center;
   margin-bottom: -24px;
   margin-top: 50px;
+  user-select: none;
 }
 #btnUbicacion {
   background-color: #383838; /* Fondo negro */
@@ -665,6 +686,7 @@ body::before {
   text-align: center;
   margin-bottom: -24px;
   margin-top: 49px;
+  user-select: none;
 }
 
 .imagen7 {
@@ -682,6 +704,7 @@ body::before {
   color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 2px;
+  user-select: none;
 }
 
 .message7 {
