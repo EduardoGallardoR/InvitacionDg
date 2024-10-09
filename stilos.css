@@ -1082,7 +1082,9 @@ body::before {
 .title7 {
   font-size: 60px;
 }
-
+.music {
+  right: 10px;
+}
 }
 
 @media screen and  (max-width:780px) {
@@ -1247,6 +1249,9 @@ body::before {
   .message7 {
     font-size: 24px;
     margin-top: 40px;
+  }
+  .music {
+    right: 5px;
   }
 }
 
@@ -1419,6 +1424,9 @@ body::before {
   .message7 {
     font-size: 22px;
     margin-top: 40px;
+  }
+  .music {
+    right: -11px;
   }
 }
 
