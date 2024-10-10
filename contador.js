@@ -1,5 +1,5 @@
 // Obtener la fecha objetivo
-const targetDate = new Date("November 23, 2024 00:00:00").getTime();
+const targetDate = new Date("November 23, 2024 17:00:00").getTime();
 
 // Actualizar la cuenta regresiva cada 1 segundo
 const countdownInterval = setInterval(function() {
