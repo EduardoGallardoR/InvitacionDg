@@ -195,25 +195,30 @@
 <div class="contenedor9">
   <div class="cuadro-transparente">
     <h1 class="title9">Confirmar asistencia</h1>
-      <p>Favor de confirmar asistencia</p>
-      
+    <p>Favor de confirmar asistencia</p>
+    
+    <form action="https://sheetdb.io/api/v1/fb1wvsc9zbbln" method="post" id="sheetdb-form"> <!-- Formulario agregado -->
+    
       <div class="campo9">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" placeholder="Escribe el nombre principal">
+          <input type="text" id="nombre" name="data[nombre]" placeholder="Escribe el nombre principal" required>
       </div>
 
       <div class="campo9">
           <label for="telefono">Número Celular</label>
-          <input type="tel" id="telefono" placeholder="Escribe tu teléfono">
+          <input type="tel" id="telefono" name="data[telefono]" placeholder="Escribe tu teléfono" required>
       </div>
 
-      <button class="boton-confirmar">Confirmar asistencia</button>
+      <button type="submit" class="boton-confirmar">Confirmar asistencia</button> <!-- Botón de envío -->
+    </form> <!-- Fin del formulario -->
   </div>
 </div>
+
 
   <script src="contador.js"></script>
   <script src="carrucel.js"></script>
   <script src="efecto.js"></script>
   <script src="playing.js"></script>
+  <script src="campos.js"></script>
 </body>
 </html>
