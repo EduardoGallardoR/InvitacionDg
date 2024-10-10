@@ -830,7 +830,8 @@ body::before {
   margin: 15% auto; /* 15% desde la parte superior y centrado */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Ancho del modal */
+  width: 65%; /* Ancho del modal */
+  border-radius: 23px;
 }
 
 .modal-content h2 {
