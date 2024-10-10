@@ -37,3 +37,25 @@ window.addEventListener('scroll', function() {
         isFilled = false; // Actualizar el estado de la barra
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const timelineItems = document.querySelectorAll('.timeline-content');
+
+    function checkVisibility() {
+        const windowHeight = window.innerHeight;
+
+        timelineItems.forEach(item => {
+            const rect = item.getBoundingClientRect();
+            // Verifica si el elemento es visible en el viewport
+            if (rect.top < windowHeight && rect.bottom > 0) {
+                item.classList.add('active'); // Agrega la clase active
+            }
+        });
+    }
+
+    // Ejecutar la verificación al cargar la página
+    checkVisibility();
+
+    // Ejecutar la verificación al hacer scroll
+    window.addEventListener('scroll', checkVisibility);
+});

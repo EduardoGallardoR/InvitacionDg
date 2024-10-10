@@ -529,6 +529,47 @@ body::before {
   position: relative;
   z-index: 2;
   top: -40px;
+  opacity: 0; /* Inicialmente oculto para animación */
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* Añadir las animaciones */
+@keyframes slide-in-left {
+  from {
+      transform: translateX(-100%);
+      opacity: 0; /* Comienza oculto */
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1; /* Termina visible */
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+      transform: translateX(100%);
+      opacity: 0; /* Comienza oculto */
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1; /* Termina visible */
+  }
+}
+
+/* Clases de animación activadas */
+.timeline-content.active {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Mantener el estado final de la animación */
+}
+
+/* Aplica las animaciones dependiendo de la posición */
+.timeline-content.left.active {
+  animation-name: slide-in-left; /* Aparece desde la izquierda */
+}
+
+.timeline-content.right.active {
+  animation-name: slide-in-right; /* Aparece desde la derecha */
 }
 
 .timeline-content h2 {
