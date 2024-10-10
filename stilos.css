@@ -559,7 +559,7 @@ body::before {
 
 /* Clases de animación activadas */
 .timeline-content.active {
-  animation-duration: 0.5s;
+  animation-duration: 1.0s;
   animation-fill-mode: forwards; /* Mantener el estado final de la animación */
 }
 
