@@ -812,6 +812,48 @@ body::before {
   background-color: #000000;
 }
 
+.modal {
+  display: none; /* Ocultar por defecto */
+  position: fixed;
+  z-index: 1; /* Sitúa el modal en la parte superior */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  overflow: auto; /* Permite el desplazamiento si es necesario */
+  background-color: rgb(0, 0, 0); /* Color de fondo negro */
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con opacidad */
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% desde la parte superior y centrado */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Ancho del modal */
+}
+
+.modal-content h2 {
+  color: #2c3e50; /* Cambiar color del encabezado (h2) */
+}
+
+.modal-content p {
+  color: #34495e; /* Cambiar color del párrafo */
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*----------------MEDIA QUERRYS------------------------------- */
 
 @media screen and  (max-width:1246px) {

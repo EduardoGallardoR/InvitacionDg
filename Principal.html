@@ -197,8 +197,7 @@
     <h1 class="title9">Confirmar asistencia</h1>
     <p>Favor de confirmar asistencia</p>
     
-    <form action="https://sheetdb.io/api/v1/fb1wvsc9zbbln" method="post" id="sheetdb-form"> <!-- Formulario agregado -->
-    
+    <form id="sheetdb-form"> <!-- Eliminar el action para manejarlo con AJAX -->
       <div class="campo9">
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" name="data[nombre]" placeholder="Escribe el nombre principal" required>
@@ -214,11 +213,31 @@
   </div>
 </div>
 
+<!-- Modal de confirmación -->
+<div id="confirmation-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close-button" id="close-modal">&times;</span>
+    <h2>¡Confirmación!</h2>
+    <p>La asistencia se ha confirmado exitosamente.</p>
+  </div>
+</div>
+
+
+<!-- Modal de confirmación -->
+<div id="confirmation-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close-button" id="close-modal">&times;</span>
+    <h2>¡Confirmación!</h2>
+    <p>La asistencia se ha confirmado exitosamente.</p>
+  </div>
+</div>
+
 
   <script src="contador.js"></script>
   <script src="carrucel.js"></script>
   <script src="efecto.js"></script>
   <script src="playing.js"></script>
   <script src="campos.js"></script>
+  <script src="modals.js"></script>
 </body>
 </html>
