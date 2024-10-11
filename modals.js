@@ -64,3 +64,30 @@ window.addEventListener('click', function(event) {
         modal.style.display = 'none';
     }
 });
+
+
+window.onload = function() {
+    const modal = document.getElementById('welcome-modal');
+    const acceptButton = document.getElementById('accept-button');
+    const mainContent = document.getElementById('main-content');  // Verificar este elemento
+    const audioPlayer = document.getElementById('audio-player');
+
+    console.log("mainContent: ", mainContent);  // Esto te dirá si es null o no
+
+    acceptButton.addEventListener('click', function() {
+        modal.style.display = 'none';  // Oculta el modal
+        if (mainContent) {
+            mainContent.classList.remove('hidden');  // Asegúrate de que mainContent existe
+        } else {
+            console.error("El elemento con id 'main-content' no existe.");
+        }
+
+        // Reproduce la canción
+        audioPlayer.play().then(() => {
+            console.log("La canción está reproduciéndose.");
+        }).catch(error => {
+            console.error("Error al intentar reproducir la canción: ", error);
+        });
+    });
+};
+
