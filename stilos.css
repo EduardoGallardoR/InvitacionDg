@@ -925,29 +925,82 @@ body::before {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
 }
 
-.modal-box { /* Cambiado de modal-content a modal-box */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
+}
+
+.modal-box { 
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px; /* Bordes más redondeados */
   text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
   animation: fadeIn 0.5s;
+  width: 240px; /* Ancho adaptable */
+  height: auto; /* Altura automática según contenido */
+}
+
+.modal-box h2 {
+  color: #2c3e50; /* Cambiar color del encabezado (h2) */
+  font-size: 14px; /* Aumentar tamaño de fuente */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.modal-box p {
+  color: #34495e; /* Cambiar color del párrafo */
+  font-size: 13px; /* Tamaño de fuente más pequeño */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para la línea divisoria */
+.modal-divider {
+  border-top: 1px solid #e0e0e0; 
+  margin: 11px 0; 
+  width: 240px;
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  padding: 10px 0; /* Padding solo vertical */
+  background-color: transparent; /* Fondo transparente */
+  color: #007bff; /* Color de texto azul */
+  border: none; /* Sin borde */
+  border-radius: 0; /* Sin bordes redondeados para un aspecto más limpio */
   cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente */
+  width: 100%; /* Botón ocupa todo el ancho del modal */
+  transition: color 0.3s; /* Transición suave al cambiar color */
 }
 
 button:hover {
-  background-color: #0056b3;
+  color: #0056b3; /* Color al pasar el mouse (más oscuro) */
 }
+
+
 
 @keyframes fadeIn {
   from {
