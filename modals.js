@@ -71,6 +71,7 @@ window.onload = function() {
     const acceptButton = document.getElementById('accept-button');
     const mainContent = document.getElementById('main-content');  // Verificar este elemento
     const audioPlayer = document.getElementById('audio-player');
+    const musicIcon = document.getElementById('music-icon'); // Obtener el icono de música
 
     console.log("mainContent: ", mainContent);  // Esto te dirá si es null o no
 
@@ -85,9 +86,16 @@ window.onload = function() {
         // Reproduce la canción
         audioPlayer.play().then(() => {
             console.log("La canción está reproduciéndose.");
+            musicIcon.classList.add('playing'); // Añade la clase 'playing' al icono
+
+            // Elimina la clase 'playing' cuando la música termina
+            audioPlayer.onended = function() {
+                musicIcon.classList.remove('playing');
+            };
         }).catch(error => {
             console.error("Error al intentar reproducir la canción: ", error);
         });
     });
 };
+
 
