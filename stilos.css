@@ -864,6 +864,7 @@ body::before {
   overflow: auto; /* Permite el desplazamiento si es necesario */
   background-color: rgb(0, 0, 0); /* Color de fondo negro */
   background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con opacidad */
+  user-select: none;
 }
 
 .modal-content {
@@ -873,14 +874,17 @@ body::before {
   border: 1px solid #888;
   width: 65%; /* Ancho del modal */
   border-radius: 23px;
+  user-select: none;
 }
 
 .modal-content h2 {
   color: #2c3e50; /* Cambiar color del encabezado (h2) */
+  user-select: none;
 }
 
 .modal-content p {
   color: #34495e; /* Cambiar color del párrafo */
+  user-select: none;
 }
 
 .close-button {
@@ -888,6 +892,7 @@ body::before {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  user-select: none;
 }
 
 .close-button:hover,
@@ -926,33 +931,9 @@ body::before {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
+  user-select: none;
 }
 
-.modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
-}
-
-.modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo más suave */
-}
 
 .modal-box { 
   background-color: white;
@@ -963,18 +944,22 @@ body::before {
   animation: fadeIn 0.5s;
   width: 240px; /* Ancho adaptable */
   height: auto; /* Altura automática según contenido */
+  user-select: none;
+  margin-top: 1%;
 }
 
 .modal-box h2 {
   color: #2c3e50; /* Cambiar color del encabezado (h2) */
   font-size: 14px; /* Aumentar tamaño de fuente */
   margin-bottom: 10px; /* Espacio inferior */
+  user-select: none;
 }
 
 .modal-box p {
   color: #34495e; /* Cambiar color del párrafo */
   font-size: 13px; /* Tamaño de fuente más pequeño */
   margin-bottom: 20px; /* Espacio inferior */
+  user-select: none;
 }
 
 /* Estilo para la línea divisoria */
@@ -982,6 +967,7 @@ body::before {
   border-top: 1px solid #e0e0e0; 
   margin: 11px 0; 
   width: 240px;
+  user-select: none;
 }
 
 button {
@@ -994,6 +980,7 @@ button {
   font-size: 16px; /* Tamaño de fuente */
   width: 100%; /* Botón ocupa todo el ancho del modal */
   transition: color 0.3s; /* Transición suave al cambiar color */
+  user-select: none;
 }
 
 button:hover {
