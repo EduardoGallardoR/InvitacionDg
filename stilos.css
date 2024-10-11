@@ -298,6 +298,22 @@ body::before {
   width: 418px;
   height: 322px;
   z-index: 2;
+  
+  /* Inicialmente oculto */
+  transform: translateY(20px); /* Desplaza la tarjeta hacia abajo */
+  opacity: 0; /* Inicialmente invisible */
+}
+
+/* Define la animación de deslizamiento */
+@keyframes slideUp {
+  to {
+    transform: translateY(0); /* Vuelve a la posición original */
+    opacity: 1; /* Muestra la tarjeta */
+  }
+}
+
+.card.show {
+  animation: slideUp 0.5s forwards; /* Aplica la animación */
 }
 
 
@@ -970,7 +986,7 @@ body::before {
   user-select: none;
 }
 
-button {
+#welcome-modal button {
   padding: 10px 0; /* Padding solo vertical */
   background-color: transparent; /* Fondo transparente */
   color: #007bff; /* Color de texto azul */
@@ -983,10 +999,9 @@ button {
   user-select: none;
 }
 
-button:hover {
+#welcome-modal button:hover {
   color: #0056b3; /* Color al pasar el mouse (más oscuro) */
 }
-
 
 
 @keyframes fadeIn {

@@ -38,6 +38,8 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+//Animacion de los tinerarios de la fiesta
 document.addEventListener("DOMContentLoaded", function() {
     const timelineItems = document.querySelectorAll('.timeline-content');
 
@@ -59,3 +61,31 @@ document.addEventListener("DOMContentLoaded", function() {
     // Ejecutar la verificación al hacer scroll
     window.addEventListener('scroll', checkVisibility);
 });
+
+
+//Animacion de los card de indicaciones
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 && rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && 
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+  
+  // Función para agregar la clase de animación
+  function handleScroll() {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      if (isElementInViewport(card)) {
+        card.classList.add('show'); // Agrega la clase para iniciar la animación
+      }
+    });
+  }
+  
+  // Escucha el evento de scroll
+  window.addEventListener('scroll', handleScroll);
+  
+  // Llama a la función al cargar la página para verificar la visibilidad inicial
+  handleScroll();
+  
