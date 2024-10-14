@@ -43,7 +43,7 @@ body::before {
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 4;
+  z-index: 7;
   user-select: none;
 }
 
@@ -553,7 +553,7 @@ body::before {
   height: 75px;
   position: relative;
   z-index: 2;
-  top: -40px;
+  transform: translateY(-40px);
   opacity: 0; /* Inicialmente oculto para animación */
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
@@ -562,7 +562,7 @@ body::before {
 /* Añadir las animaciones */
 @keyframes slide-in-left {
   from {
-      transform: translateX(-100%);
+      transform: translateX(-6%);
       opacity: 0; /* Comienza oculto */
   }
   to {
@@ -573,7 +573,7 @@ body::before {
 
 @keyframes slide-in-right {
   from {
-      transform: translateX(100%);
+      transform: translateX(6%);
       opacity: 0; /* Comienza oculto */
   }
   to {
