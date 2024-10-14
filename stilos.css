@@ -1027,6 +1027,7 @@ body::before {
 .invitation-info {
   text-align: center; /* Centra el texto del mensaje */
   margin-top: 20px; /* Espacio por encima */
+  user-select: none;
 }
 
 .social-icons {
@@ -1034,6 +1035,7 @@ body::before {
   justify-content: center; /* Centra los íconos horizontalmente */
   gap: 10px; /* Espacio entre los íconos */
   margin-top: -21px;
+  user-select: none;
 }
 
 .social-icon {
@@ -1045,6 +1047,7 @@ body::before {
   border-radius: 50%; /* Hace el círculo */
   background-color: rgb(15, 36, 90); /* Color de fondo azul */
   transition: background-color 0.3s; /* Suaviza el cambio de color */
+  user-select: none;
 }
 
 .social-icon:hover,
@@ -1059,12 +1062,15 @@ body::before {
 
 footer{
   margin-top: 15px;
+  user-select: none;
+  user-select: none;
 }
 
 footer p {
   
   font-size: 12px !important; /* Forzar el tamaño de fuente */
   color: #333; /* Color del texto */
+  user-select: none;
 }
 
 
@@ -1740,6 +1746,9 @@ footer p {
   .contenedor5::before {
     height: 990px;
   }
+  .contenedor5 p {
+    margin-bottom: 5px;
+  }
   .timeline {
     width: 359px;
     margin-left: 4px;
@@ -1923,13 +1932,13 @@ footer p {
     width: 89px;
   }
   .title4 {
-    margin-top: 120px;
+    margin-top: 100px;
     line-height: 0.7;
     width: 360px;
    
   }
   .contenedor5 p {
-    margin-bottom: 5px;
+    margin-bottom: -42px;
   }
 
   .contenedor5 p {
@@ -2045,9 +2054,13 @@ footer p {
   }
 
   .title4 {
+    margin-top: 80px;
     font-size: 45px;
     line-height: 0.7;
     width: 300px;
+  }
+  .contenedor5 p {
+    margin-bottom: -42px;
   }
   .contenedor5 {
     height: 745px;
