@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestros 50 años</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+<!-- Modal de bienvenida -->
+<div id="welcome-modal" class="modal">
+  <div class="modal-box"> <!-- Cambiado de modal-content a modal-box -->
+    <h2>¡Cumpleaños de Omar y Elizabeth!</h2>
+    <p>Da click en aceptar para entrar.</p>
+    <div class="modal-divider"></div> <!-- Línea divisoria añadida -->
+    <button id="accept-button">Aceptar</button>
+  </div>
+</div>
+
+  <!--  Contenedor Musica -->  
+  <div class="music" >
+    <i class="fas fa-music" id="music-icon" ></i>
+    <audio id="audio-player">
+      <source src="audio/Kansas.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+  
+
+  <!-- Primer contenedor -->
+  <div class="container">
+    <div class="title">
+      Nuestros 50 Años
+    </div>
+    <div class="countdown">
+      <span>
+        <span class="number">00</span>
+        <span class="label">Días</span>
+      </span>
+      <span>
+        <span class="number">00</span>
+        <span class="label">Horas</span>
+      </span>
+      <span>
+        <span class="number">00</span>
+        <span class="label">Minutos</span>
+      </span>
+      <span>
+        <span class="number">00</span>
+        <span class="label">Segundos</span>
+      </span>
+    </div>
+
+    <div class="name1">
+      Elizabeth
+    </div>
+    <div class="name2">
+      Omar 
+    </div>
+    <div class="date">
+      23/11/2024
+    </div>
+  </div>
+
+ <!-- Segundo contenedor -->
+<div class="new-content-container">
+  <img class="new-image" src="imagenes/blanco.jpeg" alt="Nueva Imagen">
+  
+  <!-- Imagen circular dentro del segundo contenedor -->
+  <div class="image">
+    <img src="imagenes/bola2.jpeg" alt="imagen circular">
+  </div>
+
+  <div class="overlay-content">
+    <h2>Fiesta Doble De 50 Años</h2>
+    <p>Hoy celebramos 50 años de vida y amor, y queremos compartir esta alegría con quienes más queremos. ¡Tu presencia es indispensable para hacer de esta fiesta un momento inolvidable!</p>
+    <a href="https://calendar.google.com/calendar/r/eventedit?text=Cumpleaños+de+Elizabeth+y+Omar&dates=20241123T000000/20241123T235900&details=¡Celebramos+un+cumpleaños+doble+de+50+años+llenos+de+vida+y+amor!&location=Tu+Ubicación" class="add-to-calendar-button">
+      <span class="add-to-calendar-icon">
+        <i class="fas fa-calendar-plus"></i>
+      </span>
+      Añadir al Calendario
+    </a>
+  </div>
+
+  <div class="container3">
+    <div class="text-content">
+      <div class="title2">
+        Para el evento
+      </div>
+      <p>Te agradecemos seguir las indicaciones</p>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <img src="imagenes/traje2.png" alt="Icono de vestimenta" class="icon">
+        <p class="title3">Código de Vestimenta</p>
+        <p class="style">Formal</p>
+        <p class="note">NOTA: Evita usar el color azul en tu vestimenta, esta reservado para nuestros cumpleañeros</p>
+      </div>
+      <div class="card">
+        <img src="imagenes/boleto.png" alt="Icono de vestimenta" class="icon">
+        <p class="title3">El día del evento</p>
+        <p class="style">No olvides traer tu boleto</p>
+      </div>
+      <div class="card">
+        <img src="imagenes/confirmacion.png" alt="Icono de vestimenta" class="icon">
+        <p class="title3">Asistencia</p>
+        <p class="style">Confirmación necesaria lo más pronto posible</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container4">
+    <!-- Este es el fondo del contenedor -->
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-inner">
+          <img src="imagenes/car1.jpeg" alt="Imagen 1" class="active">
+          <img src="imagenes/rem1.jpeg" alt="Imagen 2" class="active">
+          <img src="imagenes/car3.jpeg" alt="Imagen 3" class="active">
+          <img src="imagenes/car4.jpeg" alt="Imagen 4" class="active">
+          <img src="imagenes/car5.jpeg" alt="Imagen 5" class="active">
+          <img src="imagenes/rem2.jpeg" alt="Imagen 6" class="active">
+          <img src="imagenes/rem3.jpeg" alt="Imagen 7" class="active">
+          <img src="imagenes/rem4.jpeg" alt="Imagen 8" class="active">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contenedor5">
+    <!-- Título y descripción antes de la línea de tiempo -->
+    <div class="title4">
+        Itinerario del evento
+    </div>
+    <p>Prepárate para un día repleto de sorpresas, diversión y buenos recuerdos.</p>
+
+    <!-- Línea de tiempo -->
+    <div class="timeline">
+        <div class="timeline-fill"></div>
+        <!-- Evento 1 -->
+        <div class="timeline-item">
+            <div class="icon2">
+                <img src="imagenes/usuarios.png" alt="icono1">
+            </div>
+            <div class="timeline-content left">
+                <p id="evento1">Recepcion de invitados.</p>
+                <span class="date">5:00 p.m.</span>
+            </div>
+        </div>
+
+        <!-- Evento 2 -->
+        <div class="timeline-item">
+            <div class="icon2">
+                <img src="imagenes/guitarra.png" alt="icono2">
+            </div>
+            <div class="timeline-content right">
+                <p id="evento1">Banda de rock en vivo.</p>
+                <span class="date">8:00 p.m.</span>
+            </div>
+        </div>
+
+        <!-- Evento 3 -->
+        <div class="timeline-item">
+            <div class="icon2">
+                <img src="imagenes/trompeta.png" alt="icono3">
+            </div>
+            <div class="timeline-content left">
+              <p id="evento2">Banda norteño en vivo.</p>
+                <span class="date">12:00 a.m. </span>
+            </div>
+        </div>
+
+        <!-- Evento 4 -->
+        <div class="timeline-item">
+            <div class="icon2">
+                <img src="imagenes/dj.png" alt="icono3">
+            </div>
+            <div class="timeline-content right">
+              <p id="evento3">Tornamesa.</p>
+                <span class="date">2:00 a.m. </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container6">
+  <h2 class="title6">Ubicación</h2>
+  <p id="dato1">Lugar: Salón Jardín del Valle</p>
+  <p id="dato2">Día: 23 de Noviembre</p>
+  <p id="dato3">Hora: 16:00 hrs</p>
+  <p id="dato4">Domicilio: Calle 7 Mz 63 lt 4 colonia valle de los reyes</p>
+  
+  <!-- Botón para abrir Google Maps -->
+  <a href="https://www.google.com/maps/place/C.+7+9,+Valle+de+los+Reyes,+56430+Los+Reyes+Acaquilpan,+M%C3%A9x./@19.3625326,-98.9818685,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1e28e244466f9:0x818afa1e0042b61f!8m2!3d19.3625326!4d-98.9792936!16s%2Fg%2F11crscrj4g?entry=ttu&g_ep=EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+    <button id="btnUbicacion">Ver Ubicación</button>
+  </a>
+  
+  <!-- Imagen debajo del botón -->
+  <img src="imagenes/salon.jpeg" alt="Imagen de la Ubicación" id="imagenUbicacion">
+</div>
+
+<div class="container7">
+  <h2 class="title7">Mesa de regalos</h2>
+  
+  <!-- Imagen debajo del título -->
+  <img src="imagenes/regalos.jpeg" alt="Imagen de la mesa de regalos" class="imagen7">
+  
+  <p class="subtitle7">Lluvia de sobres o un regalo físico</p>
+  <p class="message7">"El día del evento habrá sobres y una caja donde podrá ser depositado"</p>
+</div>
+
+<div class="container8">
+  <img src="imagenes/acceso2.jpeg" alt="Descripción de la imagen">
+</div>
+
+<div class="contenedor9">
+  <div class="cuadro-transparente">
+    <h1 class="title9">Confirmar asistencia</h1>
+    <p>Favor de confirmar asistencia</p>
+    
+    <form id="sheetdb-form"> <!-- Eliminar el action para manejarlo con AJAX -->
+      <div class="campo9">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="data[nombre]" placeholder="Escribe el nombre principal" required>
+      </div>
+
+      <div class="campo9">
+          <label for="telefono">Número Celular</label>
+          <input type="tel" id="telefono" name="data[telefono]" placeholder="Escribe tu teléfono" required>
+      </div>
+
+      <button type="submit" class="boton-confirmar">Confirmar asistencia</button> <!-- Botón de envío -->
+    </form> <!-- Fin del formulario -->
+  </div> <!-- Fin del cuadro transparente -->
+
+  <!-- Mensaje de invitación digital -->
+  <div class="invitation-info">
+    <p>¿Quieres realizar tu invitación digital? ¡Contáctactame en alguna de mis redes sociales!</p>
+    <div class="social-icons">
+      <a href="https://wa.me/TU_NUMERO_DE_WHATSAPP" target="_blank" class="social-icon">
+        <img src="imagenes/whatsapp.png" alt="WhatsApp" />
+      </a>
+      <a href="https://facebook.com/TU_PAGINA_DE_FACEBOOK" target="_blank" class="social-icon">
+        <img src="imagenes/facebook.png" alt="Facebook" />
+      </a>
+    </div>
+  </div> <!-- Fin del mensaje de invitación digital -->
+
+  <!-- Declaración de derechos de autor -->
+  <footer>
+    <p>COPYRIGHT © 2024. Todos los derechos reservados.</p>
+  </footer>
+</div> <!-- Fin del contenedor -->
+
+
+
+<!-- Modal de confirmación -->
+<div id="confirmation-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close-button" id="close-modal">&times;</span>
+    <h2>¡Confirmación!</h2>
+    <p>Su asistencia se ha confirmado exitosamente.</p>
+  </div>
+</div>
+
+
+<!-- Modal de confirmación -->
+<div id="confirmation-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close-button" id="close-modal">&times;</span>
+    <h2>¡Confirmación!</h2>
+    <p>La asistencia se ha confirmado exitosamente.</p>
+  </div>
+</div>
+
+
+  <script src="contador.js"></script>
+  <script src="carrucel.js"></script>
+  <script src="efecto.js"></script>
+  <script src="playing.js"></script>
+  <script src="campos.js"></script>
+  <script src="modals.js"></script>
+</body>
+</html>

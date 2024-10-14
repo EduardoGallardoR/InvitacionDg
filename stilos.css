@@ -1040,8 +1040,8 @@ body::before {
   display: flex; /* Centra el ícono dentro del círculo */
   align-items: center; /* Centra verticalmente */
   justify-content: center; /* Centra horizontalmente */
-  width: 50px; /* Tamaño del círculo */
-  height: 50px; /* Tamaño del círculo */
+  width: 40px; /* Tamaño del círculo */
+  height: 40px; /* Tamaño del círculo */
   border-radius: 50%; /* Hace el círculo */
   background-color: rgb(15, 36, 90); /* Color de fondo azul */
   transition: background-color 0.3s; /* Suaviza el cambio de color */
@@ -1053,7 +1053,7 @@ body::before {
 }
 
 .social-icon img {
-  width: 24px; /* Ajusta el tamaño del ícono */
+  width: 40%; /* Ajusta el tamaño del ícono */
   height: auto;
 }
 
@@ -1823,6 +1823,9 @@ footer p {
     width: 230px;
     height: 50px;
   }
+  .invitation-info {
+    margin-top: 40px; /* Espacio por encima */
+  }
 }
 
 
@@ -1987,6 +1990,10 @@ footer p {
   .boton-confirmar {
     width: 210px;
     height: 45px;
+  }
+
+  .invitation-info {
+    margin-top: 45px; /* Espacio por encima */
   }
 }
 
