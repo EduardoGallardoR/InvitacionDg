@@ -373,7 +373,7 @@ body::before {
 /* Estilo para el carrusel */
 .carousel-container {
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   position: relative;
   margin: auto;
   overflow: hidden;
